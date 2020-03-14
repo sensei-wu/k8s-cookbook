@@ -6,10 +6,18 @@
 
 ## Push an image to a registry
 
-# Installing a k8s cluster
+# Getting a k8s cluster
 ## Local machine
 
-## Azure
+## Azure AKS
+### Using ARM templates
+1. Generate ssh key
+
+`ssh-keygen -t rsa -b 2048`
+
+2. Create a service principle
+
+`az ad sp create-for-rbac --skip-assignment`
 
 ## google Cloud
 
